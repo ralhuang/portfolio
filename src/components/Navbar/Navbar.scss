@@ -1,0 +1,46 @@
+.topnav {
+    border-bottom: #FF4655 solid 3px;
+    background-color: #0f1923;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    transition: top 0.3s;
+    display: flex;
+    transition: opacity ease .3s;
+    position: fixed;
+    z-index: 100;
+  }
+
+.navList{
+    margin: 0;
+    opacity: 1;
+    margin-left: 18px;
+    width: 100%;
+}
+
+.navListItem {
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    height: 80px;
+}
+
+.toggle {
+    width: 80px;
+    height: 80px;
+
+    svg {
+        fill: red;
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

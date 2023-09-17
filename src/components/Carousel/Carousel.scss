@@ -1,0 +1,47 @@
+.carousel-container {
+    overflow: hidden;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-items {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.indicators {
+    margin-top: 20px;
+    background: none;
+
+    .indicator-buttons {
+        color: red;
+        border: none;
+        margin: none;
+        background: none;
+    }
+}
+
+.indicator-active {
+    color: #ece8e1;
+}
+
+.indicator-inactive {
+    color: red;
+}
+
+.button-arrow {
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
