@@ -1,12 +1,25 @@
 $dark-background: #212932;
 $dark-title-text: #ece8e1;
 $dark-text: #ece8e1;
+
 $content-font-family: 'Poppins', sans-serif;
 
 
 $light-background: #FDFAF6;
 $light-title-text: #0f1923;
 $light-text: #768079;
+
+.light {
+  background: $light-background;
+  color: $light-title-text;
+  
+}
+
+.dark {
+  background: $dark-background;
+  color: $dark-title-text;
+  
+}
 
 .App {
   text-align: center;

@@ -5,7 +5,7 @@ import MenuButton from '../Menubutton/MenuButton';
 import "@theme-toggles/react/css/Around.css"
 import { Around } from "@theme-toggles/react"
 
-export const Navbar = () => {
+export const Navbar = ({toggleTheme}) => {
 
     return (
         <div className="topnav">
@@ -28,6 +28,7 @@ export const Navbar = () => {
             </ul>
             <div>
                 <Around 
+                    onToggle={toggleTheme}
                     className='toggle'
                     duration={750} 
                 />

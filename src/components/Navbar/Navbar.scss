@@ -1,6 +1,6 @@
 .topnav {
     border-bottom: #FF4655 solid 3px;
-    background-color: #0f1923;
+    background-color: inherit;
     top: 0;
     height: 80px;
     width: 100%;
@@ -12,6 +12,7 @@
   }
 
 .navList{
+    background-color: inherit;
     margin: 0;
     opacity: 1;
     margin-left: 18px;
@@ -30,7 +31,7 @@
     height: 80px;
 
     svg {
-        fill: red;
+        fill: #FF4655;
         width: 3rem;
         height: 3rem;
     }
