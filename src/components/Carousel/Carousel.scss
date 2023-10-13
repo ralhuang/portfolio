@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .carousel-container {
     overflow: hidden;
     width: 50%;
@@ -23,7 +25,7 @@
     background: none;
 
     .indicator-buttons {
-        color: red;
+        color: inherit;
         border: none;
         margin: none;
         background: none;
@@ -31,7 +33,8 @@
 }
 
 .indicator-active {
-    color: #ece8e1;
+    background: none;
+    color: inherit;
 }
 
 .indicator-inactive {

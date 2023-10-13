@@ -1,6 +1,4 @@
 .topnav {
-    border-bottom: #FF4655 solid 3px;
-    background-color: inherit;
     top: 0;
     height: 80px;
     width: 100%;
@@ -20,6 +18,7 @@
 }
 
 .navListItem {
+    background-color: inherit;
     list-style: none;
     display: inline-flex;
     position: relative;

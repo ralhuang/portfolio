@@ -1,24 +1,61 @@
+$content-font-family: 'Poppins', sans-serif;
+
+$dark-header-background: #0f1923;
+$dark-border: #FF4655;
 $dark-background: #212932;
 $dark-title-text: #ece8e1;
 $dark-text: #ece8e1;
+$dark-link: aquamarine;
+$dark-link-hover: teal;
 
-$content-font-family: 'Poppins', sans-serif;
-
-
-$light-background: #FDFAF6;
+// NAVBAR
+$light-header-background: #3498DB;
+$light-border: #DDDDDD;
+$light-background: #FFFFFF;
 $light-title-text: #0f1923;
-$light-text: #768079;
+$light-text: #0f1923;
+$light-link: lightskyblue;
+$light-link-hover: dodgerblue;
 
 .light {
+  transition: all 750ms;
   background: $light-background;
   color: $light-title-text;
-  
+  border-color: $light-border;
+
+  .topnav {
+    border-bottom: $light-border solid 3px;
+    background-color: $light-header-background;
+    color:#FFD700;
+  }
+
+  a {
+    color: $light-link;
+  }
+  a:hover {
+    transition: all 500ms ease;
+    color: $light-link-hover;
+  }
 }
 
 .dark {
+  transition: all 750ms;
   background: $dark-background;
   color: $dark-title-text;
-  
+  border-color: $dark-border;
+
+  .topnav {
+    border-bottom: $dark-border solid 3px;
+    background-color: $dark-header-background;
+  }
+
+  a {
+    color: $dark-link;
+  }
+  a:hover {
+    transition: all 500ms ease;
+    color: $dark-link-hover;
+  }
 }
 
 .App {
